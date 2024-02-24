@@ -1,19 +1,42 @@
 @charset "UFT-8";
 @keyframes manuel {
-   0% {background-color:red; left:-700px;}
-   10% {background-color: greenyellow; left: -562px;}
-   20% {background-color: purple; left: -424px;}
-   30% {background-color: blue; left: -286px;}
-   40% {background-color: gray; left: -148px;}
-   50% {background-color: beige; left: -10px;}
-   60% {background-color: aqua; left: 122px;}
-   70% {background-color: #D9328E; left:266px;}
-   80% {background-color: #76442C; left: 404px;}
-   90% {background-color: chocolate; left: 542px;}
-   100% {background-color: yellow; left:680px}
-   
-  
-    
+    0% {background-color:#BF3475; left:-5px;}
+    10% {background-color: #D9328E; left: 27px;}
+    20% {background-color: #A46487; left: 48px;}
+    30% {background-color: purple; left: 70px;}
+    40% {background-color: #BD8061; left: 91px;}
+    50% {background-color: #B68A5D; left: 113px;}
+    60% {background-color: #CBAB84; left: 134px;}
+    70% {background-color: #CFBFA4; left: 156px;}
+    80% {background-color: #79542ebc; left: 177px;}
+    90% {background-color: #5A5F65; left: 199px;}
+   100% {background-color: #46423B; left:210px} 
+}
+@keyframes manuel1 {
+    0% {background-color:#BF3475; left:-5px;}
+    10% {background-color: #D9328E; left: 77px;}
+    20% {background-color: #A46487; left: 148px;}
+    30% {background-color: purple; left: 220px;}
+    40% {background-color: #BD8061; left: 291px;}
+    50% {background-color: #B68A5D; left: 363px;}
+    60% {background-color: #CBAB84; left: 434px;}
+    70% {background-color: #CFBFA4; left: 506px;}
+    80% {background-color: #79542ebc; left: 577px;}
+    90% {background-color: #5A5F65; left: 649px;}
+   100% {background-color: #46423B; left:710px} 
+}
+@keyframes manuel2 {
+    0% {background-color:#BF3475; left:-5px;}
+    10% {background-color: #D9328E; left: 141px;}
+    20% {background-color: #A46487; left: 276px;}
+    30% {background-color: purple; left: 412px;}
+    40% {background-color: #BD8061; left: 547px;}
+    50% {background-color: #B68A5D; left: 683px;}
+    60% {background-color: #CBAB84; left: 818px;}
+    70% {background-color: #CFBFA4; left: 954px;}
+    80% {background-color: #79542ebc; left: 1089px;}
+    90% {background-color: #5A5F65; left: 1225px;}
+   100% {background-color: #46423B; left:1350px} 
 }
 *{
     margin: 0px;
@@ -22,7 +45,11 @@
 
 }
 body {
-    background-color: #c28d628e;
+    animation-name: manuel1;
+    animation-duration: 10s;
+    animation-timing-function: linear ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 header > h1{
     background-image: linear-gradient(to left, #694E31, #C08B5D, #9B9485, #F2E7D5);
@@ -38,11 +65,12 @@ header > div > p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 15px;
-    padding: 10px;
+    padding: 15px;
     width: 180px;
+    height: 40px;
     position: relative;
     animation-name: manuel;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-timing-function: linear ;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -52,7 +80,7 @@ main {
     background-color: white;
 }
 main > section#primeiro{
-    background-image: url('../imagens/Joice.png');
+    background-image: url('imagens/Joice.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,7 +104,7 @@ main > section > p.paragrafo2{
     padding: 10px;
 }
 main > section#segundo{
-    background-image: url('../imagens/Joice1.png');
+    background-image: url('imagens/Joice1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -105,8 +133,11 @@ main > section > p#paragrafo13{
     text-indent: 30px;
 }
 footer {
-    margin: -10px;
-    background-color: #D9328E;
+    animation-name: manuel;
+    animation-duration: 20s;
+    animation-timing-function: linear ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 footer > div#endereco{
     padding: 20px;
@@ -122,24 +153,6 @@ footer > div > nav > div > a > img.rede{
     border-radius: 50%;
     transition: width 1s, height 1s, transform 2s;
     transition-timing-function: linear;
-}
-#barra{
-    margin-top: -15px;
-    background-image: linear-gradient(to right, #101618, #694E31, #C08B5D, #9B9485, #F2E7D5);
-    height: 40px;
-}
-#Joice{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 10px;
-    padding: 10px;
-    width: 180px;
-    position: relative;
-    animation-name: manuel;
-    animation-duration: 10s;
-    animation-timing-function: linear ;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 .rede:hover{
     width: 60px;
@@ -174,9 +187,31 @@ footer > div > nav > div > a > img.rede{
     }
     
 }
+@media screen and (min-width: 300px) {
+    header > div > p{
+        animation-name: manuel;
+        animation-duration: 10s;
+    }
+}
+@media screen and (min-width: 550px) {
+    header > div > p{
+        animation-name: manuel1;
+        animation-duration: 10s;
+    }
+}
+@media screen and (min-width: 900px) {
+    header > div > p{
+        animation-name: manuel1;
+    }
+}
+@media screen and (min-width: 1500px) {
+    header > div > p{
+        animation-name: manuel2;
+    }
+}
 @media screen and (min-width: 800px) {
     main > section#primeiro{
-        background-image: url('../imagens/Joice.png');
+        background-image: url('imagens/Joice.png');
         background-position: right;
         background-repeat: no-repeat;
         background-size: 39% 100%;
@@ -212,7 +247,7 @@ footer > div > nav > div > a > img.rede{
         text-indent: 30px;
     }
     main > section#segundo{
-        background-image: url('../imagens/Joice1.png');
+        background-image: url('imagens/Joice1.png');
         background-repeat: no-repeat;
         background-position: right;
         background-size: 39% 100%;
@@ -222,5 +257,4 @@ footer > div > nav > div > a > img.rede{
         text-align: center;
         padding: 10px;
     }
-    
 }
