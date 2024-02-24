@@ -1,0 +1,151 @@
+@charset "UFT-8";
+/*As cores para ser usados 
+#FBFEFD - brancas
+#2FAA66 - verde normal
+#07F242 - verde leve
+#367251 - verde carregado
+#84E1AD - verde bebe pacote-projeto-d010*/
+/*1. Importar fonte baixado*/
+@font-face {
+    font-family: 'Android';
+    src: url('./Android.otf') format('opentype');
+    font-weight: normal;
+}
+/*1. Importar fonte na internet*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*Para facilitar os nomes das cores ou outras configurações podemos usar ":root"*/
+:root{
+    --fontG: 'Bebas Neue', cursive;
+    --fonteB: 'Android', cursive;
+}
+*{
+    width: auto;
+    text-align: left;
+    text-align: justify;
+}
+body{
+    background-color: #84E1AD;
+    height: 100vh;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, #1A5C38, #268952, #38CA79);
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+    margin: -10px -10px;
+    box-shadow: 1px 5px 6px #1A5C38;
+}
+header h1 {
+    text-align: center;
+    font-family: var(--fontG);
+    margin: 15px auto 7px auto;
+}
+header p{
+    margin: 0px auto 20px auto;
+    text-align: center;
+}
+header a{
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+    line-height: 0px;
+}
+header a:hover{
+    font-weight: 900;
+    background-image: linear-gradient(to top, #1A5C38, #268952, #38CA79);
+    text-decoration: underline;
+    padding: 20px;
+    display: inline-block;
+    line-height: 0px;
+    color: #4bef95;
+    border-radius: 20px;
+}
+main {
+    background-color: #ffffff;
+    text-align: justify;
+    margin: 10px auto;
+    padding: 10px 30px;
+    min-width: auto;
+    max-width: 1000px;
+    border-radius: 3px;
+    text-indent: 30px;
+    border-radius:2px 2px 15px 15px;
+    box-shadow: 2px 2px 5px #0b2102;
+}
+main h1{
+    font-family: var(--fonteB);
+    text-align: left;
+    background-image: linear-gradient(to right, #ACD0BD, #CDF0DB, #DBF3E6, #E4F6EC, #F6FCF9);
+    color: #1A5C38;
+    text-indent: 0px;
+}
+main h2{
+    font-family: var(--fonteB);
+    background-image: linear-gradient(to right, #ACD0BD, #CDF0DB, #DBF3E6, #E4F6EC, #F6FCF9);
+    color: #1A5C38;
+    text-indent: 0px;
+}
+strong{
+    font-weight: 900;
+    color: #1a5c38da;
+}
+main a.externo {
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: 900;
+}
+main a::after{
+    content: '🔗';
+}
+main img {
+    width: 350 px;
+}
+div.video{
+    background-color: #2FA866;
+    margin: auto;
+    position: relative;
+    padding: 24%;
+    width: 30%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    width: 98%;
+    height: 96%;
+
+}
+aside {
+    background-color: #C5EBD6;
+    border-radius: 20px;
+    padding: 0px 20px 20px;
+    margin: auto;
+    min-width: auto;
+}
+aside h3 {
+    background-color: #2FA866;
+    color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px;
+    margin: 10px -20px;
+}
+aside ul {
+    columns: 2;
+    list-style-type: '\2714 U+FE0F';
+    list-style-position: inside;
+}
+footer {
+    background-color: #1A5C38;
+    color: #ffffff;
+    font-weight: 900;
+    text-align: center;
+}
+footer a {
+    color: #ffffff;
+    font-weight: 900;
+}
+.esquerda{
+    text-indent: -43px;
+}

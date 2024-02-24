@@ -1,0 +1,8 @@
+@charset "UFT-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: linear-gradient(to left,#734F0E,#73500eba, #73500ea1, #73500eba, #73500e);
+}

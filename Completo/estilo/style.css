@@ -1,0 +1,418 @@
+@charset "UFT-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header > div#geral{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #A2D4F2;
+}
+header > div > div#logo1{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-image: url('../imagens/logo1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header > div > div#logo2{
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-image: url('../imagens/logo2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div#base{
+    width: 100%;
+    height: 10px;
+    margin: 0px auto;
+    background-image: linear-gradient(to right, #2A3E59, #4A6D8C, #84A9BF, #F2955E, #F28157, red);
+}
+main > section#primeiro{
+    width: 95%;
+    height: 500px;
+    margin: 0px auto;
+    background-color: blue;
+}
+main > section > div#geral{
+    height: 100%;
+    background-image: url('../imagens/bg-form.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+main > section > div > form{
+    float: right;
+    width: 400px;
+    height: 98%;
+    padding: 20px;
+    margin-top: 0.3%;
+    margin-right: 3%;
+    border: 2px inset black;
+    box-shadow: 1px 1px 2px #D9965B;
+    background-color: #f2805749;
+}
+main > section > div > form > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to left, #f2805765, #a2d3f2fb);
+    color: white;
+}
+main > section > div > form > p#centro{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -8px;
+    color: white;
+}
+main > section > div > form > div.form{
+    margin-bottom: 2px;
+}
+main > section > div > form > div > label, input{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main > section > div > form > div > label{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: white;
+}
+main > section > div > form > div > input{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    text-indent: 10px;
+    word-spacing: 10px;
+    padding-right: 10px;
+    margin: 0px auto;
+    box-shadow: 1px 1px 1px black;
+    background-image: linear-gradient(to left, #f2805765, #a2d3f2);
+}
+main > section > div > form > div > input#nome{
+    text-transform: capitalize;
+    font-style: oblique;
+    font-weight: bold;
+}
+main > section > div > form > div > input#email{
+    text-transform: lowercase;
+    font-style: oblique;
+    font-weight: bold;
+}
+main > section > div > form > div > input#fone{
+    text-transform: lowercase;
+}
+main > section > div > form > div > input#enviar{
+    font-weight: bold;
+    width: 250px;
+    margin: 15px auto;
+    background-color: #A2D4F2;
+    color: #260101;
+}
+main > section#segundo{
+    background-color: yellow;
+    width: 95%;
+    margin: 0px auto;
+}
+main > section > div#geral1{
+    background-color: rgb(0, 255, 55);
+    width: 100%;
+    height: 600px;
+}
+main > section > div > div#info1{
+    float: left;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    background-color:#a2d3f2;
+}
+main > section > div > div#sala1{
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-image: url('../imagens/mosaico1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main > section#terceiro{
+    width: 95%;
+    margin: 0px auto;
+}
+main > section > div#geral2{
+    width: 100%;
+    height: 600px;
+    background-color: red;
+}
+main > section > div > div#info2{
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-color: #F28157;
+}
+main > section > div > div#sala2{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-image: url('../imagens/mosaico2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main > section#quarto{
+    width: 95%;
+    margin: 0px auto;
+}
+main > section > div#geral3{
+    width: 100%;
+    height: 600px;
+}
+main > section > div > div#info3{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: #F28157;
+}
+main > section > div > div#sala3{
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-image: url('../imagens/mosaico3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main > section#quinto{
+    width: 95%;
+    margin: 0px auto;
+}
+main > section > div#geral4{
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+}
+main > section > div > div#info4{
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-color: #a2d3f2;
+}
+main > section > div > div#sala4{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-image: url('../imagens/mosaico4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main > div#base1{
+    width: 100%;
+    height: 30px;
+    border-radius: 0px 0px 100px 100px;
+    background-image: linear-gradient(to left, #2A3E59, #4A6D8C, #84A9BF, #F2955E, #F28157, red);
+}
+main > aside {
+    width: 97%;
+    height: 200px;
+    margin: -2px auto;
+    background-color:#84A9BF ;
+}
+main > aside > div#geral5{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+main > aside > div > p{
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 10px 10%;
+    color: red;
+}
+main > div#base2{
+    width: 100%;
+    height: 30px;
+    margin-top: 1.5px;
+    border-radius: 100px 100px 0px 0px;
+    background-image: linear-gradient(to left, #2A3E59, #4A6D8C, #84A9BF, #F2955E, #F28157, red);
+}
+footer > div#endereco{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 20px;
+    background-color:#A2D4F2;
+}
+footer > div > nav > div.linha{
+    display: inline-block;
+}
+footer > div > nav > div > a > img.rede{
+    text-align: center;
+    margin:0px ;
+    width: 30px;
+    height: 30px;
+    border-radius: 50% 50%;
+    margin: 10px auto;
+}
+.paragrafo{
+    position: relative;
+    top: 250px;
+    width: 90%;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+    text-indent: 10px;
+    padding-left: 10px;
+    color: #260101;
+}
+#paragrafo1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-indent: 10px;
+    padding-left: 10px;
+    color: #260101;
+}
+#paragrafo2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-indent: 10px;
+    padding-left: 10px;
+    color: #260101;
+}
+/*Fazer o CSS responsivel*/
+@media screen and (max-width: 550px) {
+    header > div#geral{
+        float: none;
+        height: 250px;
+    }
+    header > div > div#logo1{
+        width: 100%;
+        height: 150px;
+        float: none;
+    }
+    header > div > div#logo2{
+        width: 100%;
+        height: 70px;
+        float: none;
+    }
+    main > section > div > form{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-right:0px ;
+    }
+    main > section > div > form > div > input{
+        width: 90%;
+    }
+    main > section > div > div#sala1{
+        float: none;
+        width: 100%;
+        height: 500px;
+    }
+    main > section > div > div#info1{
+        float: none;
+        width: 100%;
+        height: 100px;
+    }
+    main > section > div > div#sala2{
+        float: none;
+        width: 100%;
+        height: 500px;
+    }
+    main > section > div > div#info2{
+        float: none;
+        width: 100%;
+        height: 100px;
+    }
+    main > section > div > div#sala3{
+        float: none;
+        width: 100%;
+        height: 500px;
+    }
+    main > section > div > div#info3{
+        float: none;
+        width: 100%;
+        height: 100px;
+    }
+    main > section > div > div#sala4{
+        float: none;
+        width: 100%;
+        height: 500px;
+    }
+    main > section > div > div#info4{
+        float: none;
+        width: 100%;
+        height: 100px;
+    }
+    main > section > div > div > p.paragrafo{
+        position: inherit;
+        padding-top: 20px;
+    }
+    main > aside {
+        width: 90%;
+        height: 300px;
+        margin: -2px auto;
+    }
+    main > aside > div#geral5{
+        background-color: #a2d3f2;
+    }
+    #paragrafo1{
+        font-size: 18px;
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+        color: #260101;
+    }
+    #paragrafo2{
+        width: 100%;
+        height: 100%;
+        font-size: 18px;
+        padding-left: 10px;
+        margin-top: -200px;
+        color: #260101;
+    }
+}
+@media screen and (max-width:450px) {
+    #paragrafo1{
+        font-size: 15px;
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+        color: #ff1a1a;
+    }
+    #paragrafo2{
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+        padding-left: 10px;
+        margin-top: -200px;
+        color: #260101;
+    }
+    .paragrafo{
+        width: 90%;
+        height: 100%;
+        text-align: justify;
+        font-weight: bold;
+        font-size: 18px;
+        text-indent: 10px;
+        padding-left: 10px;
+        color: #260101;
+    }
+    main > section#primeiro{
+        margin-top: 235px;
+        height: 500px;
+    }
+}

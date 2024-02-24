@@ -1,0 +1,145 @@
+@charset "UFT-8";
+@font-face {
+    font-family: 'Itc';
+    src: url('./ALGER.TTF') format('opentype');
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    min-height: 100vh;
+    line-height: 30px;
+    font-family: "Dancing Script", cursive;
+    padding: 10px;
+    color: #053005;
+    background-color: #05300579;
+}
+header
+{
+    background-color: #F1A700;
+    color: white;
+    line-height: 40px;
+    margin: -10px;
+}
+header > h1
+{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font-family: 'Itc';
+    color: #053005;
+    font-size: 3em;
+}
+header > p
+{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    color: #053005;
+}
+main
+{
+    border-radius: 15px;
+    margin: 10px;
+}
+#cor1
+{
+    padding-left: 40px;
+    color: #053005;
+}
+#cor1:hover{
+    color: #F1A700;
+}
+.normal
+{
+    text-align: left;
+    padding: 10px;
+    background-image: linear-gradient(to left, #0530057a,  #0530053a, #f1a90019,  #f1a9006c,  #f1a900a2);
+    border-radius: 15px 15px 0px 0px;
+
+}
+section.imagem > p
+{
+    background-color: rgba(0, 0, 0, 0.142);
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    width: 260px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 4px 3px 6px black;
+    color: #F1A700;
+}
+section p:hover{
+    color: rgba(255, 255, 255);
+}
+article.imagem-especial p 
+{
+    background-color: rgba(0, 0, 0, 0.489);
+    color: rgb(255, 255, 255);
+    width: 240px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 4px black;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#q1
+{
+    background-image: url("../imagens/oseias.jpg");
+    background-position: right;
+    background-size: cover;
+    border-radius: 0px 0px 15px 15px;
+}
+#q1:hover{
+    background-image: url("../imagens/teresa.png");
+}
+#q2
+{
+    background-image: url("../imagens/fundo.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0px 0px 15px 15px;
+}
+#q2:hover{
+    background-image: url("../imagens/oseias.jpg");
+}
+#q3
+{
+    background-image: url("../imagens/teresa.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 0px 15px 15px;
+    color: #F1A700;
+    padding-left: 10px;
+}
+#q3:hover{
+    background-image: url("../imagens/fundo.jpg");
+}
+footer
+{
+    padding-top: 20px;
+    background-color:  #F1A700;
+    color:  #053005;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+a
+{
+    color: #053005;
+    text-decoration: none;
+}
+body a:hover
+{
+    background-color: #053005;
+    color: red ;
+}
+nav.fotos{
+    line-height: 10px;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+}
