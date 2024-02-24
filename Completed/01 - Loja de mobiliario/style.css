@@ -34,7 +34,7 @@ div#base{
 }
 main > section#primeiro{
     width: 95%;
-    height: 500px;
+    height: 600px;
     margin: 0px auto;
     background-color: blue;
 }
@@ -61,6 +61,7 @@ main > section > div > form > h2{
     text-align: center;
     font-size: 25px;
     line-height: 30px;
+    margin-top: 20%;
     margin-bottom: 5px;
     border-radius: 10px;
     padding: 10px;
@@ -308,11 +309,17 @@ footer > div > nav > div > a > img.rede{
         height: 70px;
         float: none;
     }
+    main > section#primeiro{
+        height: 720px;
+    }
     main > section > div > form{
         width: 100%;
         margin-top: 10px;
         margin-bottom: 5px;
         margin-right:0px ;
+    }
+    main > section > div > form > h2{
+        margin-top: 55%;
     }
     main > section > div > form > div > input{
         width: 90%;
@@ -414,5 +421,11 @@ footer > div > nav > div > a > img.rede{
     main > section#primeiro{
         margin-top: 235px;
         height: 500px;
+    }
+    main > section > div > form > h2{
+        margin-top: 0.1%;
+    }
+    main > section#primeiro{
+        height: 520px;
     }
 }
